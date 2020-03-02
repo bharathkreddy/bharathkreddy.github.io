@@ -7,77 +7,67 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
+    name: Bharath k. Reddy
     tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: reddybharath.k@gmail.com
+    phone: +91-9535543340
+    website: bharathkreddy.github.io/blog/ #do not add http://
+    linkedin: https://www.linkedin.com/in/bharath-reddy-04822a13
+    github: https://bharathkreddy.github.io/
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@Bharath95440790'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Hindi
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: Telugu
+        level: Native
 
     interests:
-      - item: Climbing
-        link:
+      - item: Coding
+        link:https://bharathkreddy.github.io/blog/
 
-      - item: Snowboarding
-        link:
+      - item: Science
+        link:https://bharathkreddy.github.io/blog/
 
-      - item: Cooking
-        link:
+      - item: Chess
+        link:https://bharathkreddy.github.io/blog/
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Code literate problem solver, I have 10+ years of experience in providing sustainable process improvements in Fund Services domain.
+      I have spend 6 years working in Fund Accounting, Middle office and Transfer Agency and next 4 years managing internal control enviroment
+      for these domains. Recently i have started working on creating & implimentation of analytics and intelligence layer over technology
+      architechture covering theser verticals.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: MBA
+      university: University of Edith Cowan
+      time: 2017 - 2009
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+        Majors in Finance
+          - Gold Medalist
+          - Topper of the batch
+    - degree: Batchelors in Technology (Electrical and Electronics Engineering)
+      university: Jawaharlal Nehru Technology University
+      time: 2002 - 2006
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        Final year project on speed control of Brushless DC motor was selected for IEEE publication. I coded the software controller on MATLAB
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
+    - role: Lead Consultant 
       time: 2015 - Present
       company: Startup Hubs, San Francisco
       details: |
