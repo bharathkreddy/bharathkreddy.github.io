@@ -32,6 +32,7 @@ p1 {
     font-size: 2em;
     line-height: 2em;
     color: #404040;
+    text-align: center;
 }
 footer {
     border-top: 1px solid #d5d5d5;
