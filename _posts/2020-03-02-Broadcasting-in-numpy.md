@@ -16,7 +16,8 @@ Out[81]: array([ 0,  4,  8, 12, 16])
 
 Here we say that the scalar value 4 has been broadcast to all of the other elements in the multiplication operation. For example, we can demean each column of an array by subtracting the column means. In this case, it is very simple:
 
-```In [82]: arr = np.random.randn(4, 3)
+```
+In [82]: arr = np.random.randn(4, 3)
 
 In [83]: arr.mean(0)  
 
@@ -34,6 +35,7 @@ Out[85]: array([[ 0.3937,  1.7263,  0.1633],
 In [86]: demeaned.mean(0) 
 
 Out[86]: array([-0.,  0., -0.]) 
+
 ```
 
 See Figure for an illustration of this operation. Demeaning the rows as a broadcast operation requires a bit more care. Fortunately, broadcasting potentially lower dimensional values across any dimension of an array (like subtracting the row means from each column of a two-dimensional array) is possible as long as you follow the rules. 
