@@ -153,7 +153,7 @@
 
                         <p>
                             Lets imagine you and your friend play a game. If a coin lands on heads, you win a dollar and if it lands on tails your friend wins a dollar.
-                            Now the coin is tossed and lo! 7 times in a row the coin landed on tails !!, now you are thinking - is the coin rigged ?
+                            Now the coin is tossed and lo! 7 times in a row the coin landed on tails !!, now you are thinking - is the coin rigged ? "Could these observations really have occurred by chance?"
                         </p>
 
                         <p>
@@ -167,74 +167,55 @@
                         <h2>Fancy Terminology</h2>
     
                         <p>
-                        Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum 
-                        soluta nobis est eligendi optio cumque nihil impedit quo minus 
-                        <a href="http://#">omnis voluptas assumenda est</a> id quod maxime placeat 
-                        facere possimus, omnis dolor repellendus. Temporibus autem quibusdam et aut 
-                        officiis debitis aut rerum necessitatibus saepe eveniet ut et.
+                        <ul><b>Null Hypothesis:</b> Belief that the observations are the result purely of chance. In our case its a coin being unboiased and 50% probability of heads and 50% probability of tails at eacch toss.</ul>
+                        <ul><b>Alternative Hypothesis:</b> Belief that there is a real effect, that the obervations are the result of this real effect, plus chance variation. In our case this is coin being rigged and the probability is not 50% for heads and tails. </ul>
+                        <ul><b>P-value:</b>A Probability statement which answers the question:if the null hypothesis were true, then what is the possiblity of observing a test statistic at least as extreme as the one we observed? In this case we formulate - what is the probability of observing 7 tails in a row?</ul>
+                        <ul><b>Alpha:</b>a.k.a Significance level. This acts as a cutoff point below which we agree that effect is staistically significant. So if P-value is less than equal to Alpha then we rule out the null hypotheis and agree that something else is going on. In our case lets choose 5% as alpha i.e. if p-value in scenario of fipping tails 7 times in a row is 1 in 128 or 0.8%</ul>
                         </p>
     
                         <blockquote>
                             <p>
-                            For God so loved the world, that he gave his only Son, that whoever believes in 
-                            him should not perish but have eternal life. For God did not send his Son into 
-                            the world to condemn the world, but in order that the world might be 
-                            saved through him.
+                            Extraordinary claims require extraordinary evidence.
                             </p>
-                            <cite>John 3:16-17 ESV</cite>
+                            <cite>Carl Segan quoting Gillispie</cite>
                         </blockquote>
     
                         <p>
-                        Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
-                        corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
-                        similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam 
-                        venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim 
-                        cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing 
-                        in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
+                       The rule in determining whether we reject the null hypothsis is simple. If the P-Value is greater than Alpha - Do not Reject. In our case we reject the null hypothesis that coin is not baised.
                         </p>
     
-                        <h3>Smaller Heading</h3>
+                        <h3>Are you saying that the coin is rigged? My friend wont do it !!</h3>
     
                         <p>
-                        Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
-                        corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
-                        similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam 
-                        venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim 
-                        cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing 
-                        in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
+                        Here i need to tell you about errors, especially these two types.
+                        <ul><b>Type 1 error:</b> Rejecting a true null hypothesis. In our case despite all the statistical methods used - if the coin was fair and we rejected the null hypothesis - we would be commiting Type 1 error.</ul>
+                        <ul><b>Type 2 error:</b> Accepting a false null hypothesis. In our case if we agree that the coin was fair but if coin was rigged then we would have committed a type 2 error.</ul>
                         </p>
-
+<!-- USE IF REQUIRED TO PUT CODES 
 <pre><code>
-    code {
-        font-size: 1.4rem;
-        margin: 0 .2rem;
-        padding: .2rem .6rem;
-        white-space: nowrap;
-        background: #F1F1F1;
-        border: 1px solid #E1E1E1;	
-        border-radius: 3px;
-    }
+    It all boils down to what are your costs of making a type 1 and type 2 errors. Accordingly we set the value of Alpha, which acts as a decision boundary for us to choose when to reject or agree on null hypothesis.
+
 </code></pre>
 
+-->
+
+
                         <p>
-                        Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque 
-                        corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
-                        similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam 
-                        venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim 
-                        cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing 
-                        in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.
+                            It all boils down to what are your costs of making a type 1 and type 2 errors. 
+                            Accordingly we set the value of Alpha, which acts as a decision boundary for us to choose 
+                            when to reject or agree on null hypothesis.It's better that ten guilty persons escape than that one innocent suffer type of thought. Food for thought - if you were deciding on identifying people with Corona virus what woud be yours costs for each type of error ?<br/>
+                            To summarize here are the steps in hypothesis testing
                         </p>
         
                         <ul>
-                            <li>Donec nulla non metus auctor fringilla.
+                            <li>Formulate Hypothesis.
                                 <ul>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
+                                    <li>Null hypothesis.</li>
+                                    <li>Alternative hypothesis.</li>
                                 </ul>
                             </li>
-                            <li>Donec nulla non metus auctor fringilla.</li>
-                            <li>Donec nulla non metus auctor fringilla.</li>
+                            <li>Choose an Alpha based on your costsof Type 1 and Type 2 errors.</li>
+                            <li>Find the probability of observation and either accept or reject the null hypothesis.</li>
                         </ul>
         
                         <p>
@@ -251,10 +232,10 @@
                             <span>Post Tags</span>
         
                             <span class="entry__tag-list">
-                                <a href="#0">orci</a>
-                                <a href="#0">lectus</a>
-                                <a href="#0">varius</a>
-                                <a href="#0">turpis</a>
+                                <a href="#0">Statistics</a>
+                                <a href="#0">Hypothesis testing</a>
+                                <a href="#0">P-Value</a>
+                                
                             </span>
             
                         </p>
@@ -311,7 +292,7 @@
 
                         <h3 class="h2">5 Comments</h3>
         
-                        <!-- START commentlist -->
+                        <!-- START commentlist 
                         <ol class="commentlist">
         
                             <li class="depth-1 comment">
@@ -340,7 +321,7 @@
         
                                 </div>
         
-                            </li> <!-- end comment level 1 -->
+                            </li> 
         
                             <li class="thread-alt depth-1 comment">
         
@@ -434,7 +415,8 @@
         
                                 </ul>
         
-                            </li> <!-- end comment level 1 -->
+                            </li> 
+                        
         
                             <li class="depth-1 comment">
         
@@ -461,9 +443,9 @@
         
                                 </div>
         
-                            </li>  <!-- end comment level 1 -->
+                            </li>   
         
-                        </ol>
+                        </ol> -->
                         <!-- END commentlist -->
 
                     </div> <!-- end comments -->
@@ -486,15 +468,12 @@
                                         <input name="cEmail" id="cEmail" class="full-width" placeholder="Your Email" value="" type="text">
                                     </div>
             
-                                    <div class="form-field">
-                                        <input name="cWebsite" id="cWebsite" class="full-width" placeholder="Website" value="" type="text">
-                                    </div>
-            
+                                                
                                     <div class="message form-field">
                                         <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message"></textarea>
                                     </div>
             
-                                    <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Add Comment" type="submit">
+                                    <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="UNDER CONSTUCTION" type="submit">
             
                                 </fieldset>
                             </form> <!-- end form -->
